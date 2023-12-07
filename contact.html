@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Softcare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Softcare</h1>
+        <p>Your Technology Partner</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="services.html">Services</a> |
+        <a href="products.html">Products</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms and Conditions</a>
+    </nav>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have a question or need assistance? Reach out to us using the contact information below or fill out the form.
+        </p>
+
+        <!-- Add your contact information -->
+        <p>Email: mj.marko.jovanovic.1994@gmail.com</p>
+        <p>Phone: 0639683585</p>
+        <p>Address: Sprenkelaar 22 </p>
+
+        <!-- Add a contact form if desired -->
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Softcare. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
